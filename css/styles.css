@@ -25,6 +25,12 @@
 	margin: 9%;
 }
 
+.roundedcard {
+	border-radius: 20px !important;
+	margin-top: 9%;
+}
+
+
 .text-center {
 
 	padding: 5%;
