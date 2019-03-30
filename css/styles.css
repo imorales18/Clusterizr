@@ -1,0 +1,47 @@
+.container {
+
+}
+
+.banner-text {
+
+	font-weight: bolder;
+	color: white;	
+}
+
+.form-control {
+
+	margin-top: 5%;
+	padding: 2%;
+}
+
+.row {
+
+	display: flex;
+	justify-content: center;
+}
+
+.card {
+
+	margin: 9%;
+}
+
+.text-center {
+
+	padding: 5%;
+}
+
+#text-box {
+
+	margin-left: 36%;
+}
+
+#circleBanner {
+
+	position: absolute;
+	margin-top: 7%;
+}
+
+#footer-row {
+
+	margin: auto;
+}
