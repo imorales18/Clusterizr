@@ -8,6 +8,30 @@
 	color: white;	
 }
 
+.help-banner{
+	background-image: url(../img/help-banner.png);
+	background-size:contain;
+}
+
+.help-banner-text{
+	padding: 0%;
+	text-align:center;
+}
+
+.help-input{
+	border-radius: 25px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.help-img{
+	border-radius: 150px;
+    width: 100px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
 .form-control {
 
 	margin-top: 5%;
