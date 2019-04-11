@@ -1,0 +1,207 @@
+@font-face {
+	font-family: "Gothamfont";
+	src:url(fonts/Gotham-Black.woff);
+}
+
+@font-face {
+	font-family: "Gothamregular";
+	src:url(fonts/GothamBook.woff);
+}
+
+html, body {
+	font-family: "Gothamregular";
+	color: #000 !important;
+}
+
+/** Navbar **/
+
+.navbar {
+	box-shadow: 1px -3px 24px 2px #000;
+}
+
+.navlogo {
+	margin-left: 50px;
+	width: 200px;
+}
+
+.navbar-nav {
+	float: right;
+}
+
+#navbarText {
+	margin-left: 40% !important;
+}
+
+/** Landing Page - Signed Out **/
+
+.footer {
+	background-color: #000 !important;
+	color: #fff !important;
+	margin-bottom: 0px !important;
+	padding: 50px !important;
+}
+
+.postjobbtn {
+	margin-bottom: 20px;
+	background-color: #000;
+	color: #FFF;
+	border-radius: 50px;
+	width: 150px;
+	padding-top: 10px;
+	color: #FFF;
+}
+
+.postjobbtnnav {
+	background-color: #000;
+	color: #FFF;
+	border-radius: 50px;
+	padding-top: 10px;
+	color: #FFF;
+}
+
+.aboutclusterizr {
+	margin-top: 150px;
+}
+
+@media (max-width: 548px) {
+	.aboutclusterizr {
+		margin-top: 0px;
+	}
+}
+
+.jointeambtn {
+	margin: auto;
+	width: 150px;
+	border-radius: 20px;
+	background-color: #FFC904;
+	padding-top: 10px;
+}
+
+.jobsearchform {
+	border-radius: 20px;
+	box-shadow: 0px 8px 20px -8px #000;
+	font-family: initial;
+}
+
+.jobsearchbtn {
+	margin-top: 20px;
+	float: right;
+	background-color: #000;
+	color: #FFF;
+	border-radius: 50px;
+	width: 150px;
+	padding-top: 10px;
+	color: #FFF;
+	
+}
+
+
+.jumbo1{
+  background-color: #FFFFFF;
+  background-image: -webkit-linear-gradient(150deg, #FFC904 35%, #FFFFFF 35%);
+  min-height: 400px;
+}
+
+.jumbo2{
+  background-color: #FFFFFF;
+  background-image: -webkit-linear-gradient(100deg, #000 45%, #FFFFFF 35%);
+  min-height: 400px;
+}
+
+.banner-text {
+
+	font-weight: bolder;
+}
+
+.help-banner{
+	background-image: url(../img/help-banner.png);
+	background-size:contain;
+}
+
+.help-banner-text{
+	padding: 0%;
+	text-align:center;
+}
+
+.help-input{
+	border-radius: 25px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.help-img{
+	border-radius: 150px;
+    width: 100px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.form-control {
+
+	margin-top: 5%;
+	padding: 2%;
+}
+
+.row {
+
+	display: flex;
+	justify-content: center;
+}
+
+.card {
+
+	margin: 9%;
+}
+
+.roundedcard {
+	border-radius: 20px !important;
+	margin-top: 9%;
+}
+
+
+.text-center {
+
+}
+
+#text-box {
+
+	margin-left: 36%;
+}
+
+#circleBanner {
+
+	position: absolute;
+	margin-top: 7%;
+}
+
+#footer-row {
+
+	margin: auto;
+}
+
+/*====Employer profile added styles====*/
+.container-big{
+	width: 94%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.innercolumn{
+	padding-left: 1.5vw;
+	padding-right: 1.5vw;
+	padding-top: 1.5vw;
+	padding-bottom: 1.5vw;
+}
+
+.centralcolumn{
+	margin-top: 0;
+	padding-left: 8%;
+	padding-right: 8%;
+	padding-top: 2%;
+	padding-bottom: 8%;
+}
+
+.tinytext{
+	font-size: .8em;
+}
